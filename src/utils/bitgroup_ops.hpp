@@ -3197,6 +3197,7 @@ namespace bliss {
 
 
 #else
+      /*
       template <unsigned int BIT_GROUP_SIZE, unsigned char MAX_SIMD_TYPE, typename WORD_TYPE,
           unsigned int WordsInM256 = sizeof(__m256i) / sizeof(WORD_TYPE)>
       BITS_INLINE typename std::enable_if<(MAX_SIMD_TYPE == BIT_REV_AVX2), uint16_t>::type
@@ -3208,6 +3209,7 @@ namespace bliss {
                                                         bit_offset);
       }
 
+      */
 #endif
 
 
